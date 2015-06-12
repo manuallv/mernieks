@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding:0;
+}
+body {
+    background-image: url(img/bg.png);
+    font-family: 'Open Sans', sans-serif;
+
+}
+#content{
+  width: 1200px;
+  margin:0 auto;
+}
+#header {
+  width: 100%;
+  height:94px;
+  background-color: #473a2d;
+}
+.logo {
+  margin-top:23px;
+  margin-left:40px;
+  float:left;
+}
+#menu {
+  float:right;
+  margin-top: 33px;
+}
+#navlist li
+{
+  margin-top: 23px;
+  display: inline;
+  list-style-type: none;
+  padding: 10px 20px;
+  text-align: center;
+}
+#navlist a{
+  color: #fff;
+  text-decoration: none;
+}
+#navlist li:hover {
+  background-color: #5b4d3b;
+}
+.menu {
+  text-align: center;
+  color: #fff;
+}
+#slider {
+  width:100%
+}
+#slider img {
+  width:100%
+}
+#main {
+  width:1200px;
+  margin:0 auto;
+  color:#473a15;
+}
+#dala {
+  width:350px;
+  float:left;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.line {
+  width: 100%;
+  min-height: 20px;
+  margin-top:10px;
+  margin-bottom: 80px;
+  border-bottom:1px dashed #736357;
+  text-align: center;
+  color: #95782d;
+  font-size:30pt;
+  overflow: hidden;
+  padding: 20px;
+}
+.text1 {
+  background: url(img/icon1.png) no-repeat;
+  padding-left: 90px;
+  float:left;
+}
+.text2 {
+  background: url(img/icon2.png) no-repeat;
+  padding-left: 90px;
+  float:left;
+}
+.text3 {
+  background: url(img/icon3.png) no-repeat;
+  padding-left: 90px;
+  float:left;
+}
+.tablepak {
+  width:568px;
+  float:left;
+}
+.tablepakright {
+  width:568px;
+  float:right;
+}
+.pakalpojumi {
+ font-size: 13px;
+}
+.about {
+  width: 100%;
+  background: url(img/bg_b.png);
+  overflow: hidden;
+  margin-top: 80px;
+
+}
