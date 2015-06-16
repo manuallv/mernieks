@@ -62,7 +62,7 @@ body {
   margin-bottom: 50px;
 }
 .line {
-  width: 100%;
+  width: 1100;
   min-height: 20px;
   margin-top:10px;
   margin-bottom: 80px;
@@ -104,5 +104,43 @@ body {
   background: url(img/bg_b.png);
   overflow: hidden;
   margin-top: 80px;
-
+}
+.bg2 {
+  width:100%;
+  background: url(img/bg_p.png) no-repeat;
+  background-size: 100% ;
+  background-position: 50% 23%;
+  overflow: hidden;
+}
+.text_about {
+  width: 100%;
+  text-align: justify;
+  color: #fff;
+}
+.profile_img1 {
+  background: url(img/profile1.png) no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+  border:6px solid #97804e;
+  margin:0 auto;
+}
+.profile_img2 {
+    background: url(img/profile2.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    border-radius: 75px;
+  	-webkit-border-radius: 75px;
+  	-moz-border-radius: 75px;
+    border:6px solid #97804e;
+    margin:0 auto;
+}
+.profile_box {
+  width: 568px;
+  float: left;
+  margin-top:25px;
 }
